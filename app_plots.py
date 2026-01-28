@@ -16,7 +16,8 @@ data = pd.DataFrame({"x": [1, 2, 3], "y": [10, 20, 30]})
 st.write(data)
 
 # Create a Plotly figure
-fig = px.line(data, x="x", y="y", title="Simple Plotly Example")
+#fig = px.line(data, x="x", y="y", title="Simple Plotly Example")
 
 # Display the plot in the Streamlit app
-st.plotly_chart(fig)
+
+#st.plotly_chart(fig)
