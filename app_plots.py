@@ -1,7 +1,7 @@
 # My Plot of data
 
 import pandas as pd
-import plotly.express as px
+#import plotly.express as px
 import streamlit as st
 
 st.title("Title heading")
@@ -21,3 +21,4 @@ st.write(data)
 # Display the plot in the Streamlit app
 
 #st.plotly_chart(fig)
+
