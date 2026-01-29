@@ -1,5 +1,5 @@
 # My Plot of data
-
+plotly
 import pandas as pd
 import plotly.express as px
 import streamlit as st
@@ -19,4 +19,5 @@ st.write(data)
 fig = px.line(data, x="x", y="y", title="Simple Plotly Example")
 
 # Display the plot in the Streamlit app
+
 st.plotly_chart(fig)
